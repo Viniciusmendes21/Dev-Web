@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+h1 {
+    font-family: "roboto", sans-serif;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: "Judson", sans-serif;
+    font-size: 50px;
+}
+.cor-span {
+    color: blue;
+}
+
+.div-1 {
+    background-color: gray;
+
+}
+
+.div-2 {
+    background-color: gray;
+    font-size: 120px;
+
+}
+
+.div-3 {
+    background-color: gray;
+    font-size: 10em;
+
+}
+
+.span-1 {
+    color: red;
+    background-color: lightblue;
+}
