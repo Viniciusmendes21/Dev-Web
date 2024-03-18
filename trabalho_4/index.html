@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <title>Titulo Documento HTML</title>
+    </head>
+    <body>
+        <h1>texto h1</h1>
+        <h2>texto h2</h2>
+        <h3>texto h3</h3>
+        <h4>texto h4</h4>
+        <h5>texto h5</h5>
+        <h6>texto h6</h6>
+        <div class="div-1">
+            <p>Texto com p com <span class="cor-span">span</span></p>
+        </div>
+        <div class="div-2">
+            <p>Texto 2 com p com <span class="cor-span">span</span></p>
+        </div>
+        <div class="div-3">
+            <p>Texto 3 com p com <span class="cor-span">span</span></p>
+        </div>
+    
+        <span class="span-1">Texto span</span>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3
+                <ol>
+                    <li>Item 3.1</li>
+                    <li>Item 3.2</li>
+                </ol>
+            </li>
+        </ul>
+        <menu>
+            <li>Item 1 menu</li>
+            <li>Item 2 menu</li>
+            <li>Item 3 menu
+                <ol>
+                    <li>Item 3.1 menu</li>
+                    <li>Item 3.2 menu</li>
+                </ol>
+            </li>
+        </menu>
+
+        <pre>
+            Uma                                              coisa
+            Outra                    coisa
+
+
+        </pre>
+
+        <p>
+            Uma                                              coisa
+            Outra                    coisa
+
+
+        </p>
+
+        <p>Acessar <a href="https://www.google.com.br"><b>Google</b></a></p>
+        <p><a href="#forms1">Clique para descer mais na pagina</a></p>
+        <p><a href="#forms2">Clique para descer mais na pagina 2</a></p>
+
+        <em>Teste</em>
+        <br>
+        <del>Texto Deletado</del>
+        <br>
+        <ins>Texto Sublinhado</ins>
+        <br>
+        <p hidden>Texto Escondido</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/pt/a/ac/CRVascodaGama.png" alt="texto">
+        <br>
+        <form id="forms1" method="get">
+            <label>Nome:
+                <input id="nome" name="nome"type="text" autocomplete=”nome”>
+            </label>
+            <label>senha:
+                <input id="senha" name="senha" type="password" autocomplete=”senha”>
+            </label>
+            <label>Selecione uma cor:
+                <input id="cor" name="cor" type="color" autocomplete=”nome”>
+            </label>
+            <label>Texto:
+                <textarea id="texto" name="texto"  autocomplete=”texto”></textarea>
+            </label>
+                <button>Salvar</button>
+        </form>
+
+        <form id="forms2" method="post">
+            <label>Nome:
+                <input id="nome" name="nome"type="text" autocomplete=”nome”>
+            </label>
+            <label>senha:
+                <input id="senha" name="senha" type="password" autocomplete=”senha”>
+            </label>
+            <label>Selecione uma cor:
+                <input id="cor" name="cor" type="color" autocomplete=”nome”>
+            </label>
+            <label>Texto:
+                <textarea id="texto" name="texto"  autocomplete=”texto”></textarea>
+            </label>
+                <button>Salvar</button>
+        </form>
+
+        <audio controls>
+            <source src="audio.mp3">
+        </audio>
+        <video width="320" height="240" controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+    </body>
+</html>
