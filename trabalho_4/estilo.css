@@ -15,18 +15,21 @@ h2 {
 
 .div-1 {
     background-color: gray;
+    font-family: "Judson", sans-serif;
 
 }
 
 .div-2 {
     background-color: gray;
     font-size: 120px;
+    font-family: "Judson", sans-serif;
 
 }
 
 .div-3 {
     background-color: gray;
     font-size: 10em;
+    font-family: "Judson", sans-serif;
 
 }
 
