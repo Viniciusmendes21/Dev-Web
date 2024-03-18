@@ -35,5 +35,6 @@ h2 {
 
 .span-1 {
     color: red;
+    font-weight: bold;
     background-color: lightblue;
 }
