@@ -1,0 +1,47 @@
+#grid-container{
+    display: grid;
+    background-color: yellow;
+    gap: .5rem;
+    padding: .5rem;
+    grid-template-rows: repeat(3, 300px);
+    grid-template-columns: auto auto auto auto;
+
+}
+
+#item1{
+    background-color: black;
+}
+
+#item2{
+    background-color: white;
+}
+
+@media screen and (max-width: 1024px){
+    #grid-container{
+        grid-template-areas: 
+        "p p . ."
+        "p p . ."
+        ". b b b";
+    }
+    #item1{
+        grid-area: p;
+    }
+    #item2{
+        grid-area: b;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    #grid-container{
+        grid-template-areas:
+        "p p p p"
+        ". . . ."
+        "b b b b";
+    }
+    #item1{
+        grid-area: p;
+    }
+    #item2{
+        grid-area: b;
+    }
+}
