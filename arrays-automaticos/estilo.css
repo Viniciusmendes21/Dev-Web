@@ -1,0 +1,60 @@
+.card {
+    width: 30rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    "a1 a2"
+    "a1 a3"
+    "a4 a4"
+    "a5 a5";
+    border: solid black;
+    padding: .3rem;
+}
+
+.card  > div.imagem {
+    grid-area: a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 20% 20%;
+    margin: 20px;
+}
+
+.card > p.posicao {
+    grid-area: a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight:  bold;
+
+}
+
+.card > p.nome {
+    grid-area: a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight:  bold;
+}
+
+.card > p.descri {
+    grid-area: a4;
+    text-transform: uppercase;
+    margin: 0.3rem;
+}
+
+.card > p.nascimento {
+    grid-area: a5;
+    text-transform: uppercase;
+    margin: 0.3rem;
+}
+
