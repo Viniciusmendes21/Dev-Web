@@ -107,11 +107,10 @@ for (let i = 0; i < localStorage.length; i++) {
 //obj = JSON.parse(localStorage.getItem('atleta'));
 
 const params = new URLSearchParams(window.location.search);
-const dados = {};
 
 for (const [key, valor] of params.entries()) {
-    dados[key] = valor;
-    console.log(dados[key]);
+    obj[key] = valor;
+    console.log(obj[key]);
 }
 
-document.body.appendChild(montaCard(dados));
+document.body.appendChild(montaCard(obj));
